@@ -1,0 +1,795 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #000;
+}
+
+.botoncductor,
+.botoncom,
+.ver-precios,
+.tarjeta button,
+.boton-cuenta,
+.navbar-derecha .registrate,
+.navbar-derecha .iniciar-sesion {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botoncductor:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.botoncom:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.ver-precios:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.tarjeta button:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.boton-cuenta:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.navbar-derecha .registrate:hover,
+.navbar-derecha .iniciar-sesion:hover {
+    background-color: #bfbfbf;
+    color: #000;
+}
+
+.encabezado {
+    background-color: #000000;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.encabezado a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.navbar-derecha {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-derecha a {
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-derecha a:hover {
+    color: #000;
+    background-color: #bfbfbf;
+}
+
+.navbar-izquierda a {
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 8px 12px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-izquierda {
+    align-items: center;
+    display: flex;
+}
+
+.navbar-izquierda a:hover {
+    background-color: #bfbfbf;
+    color: black;
+}
+
+.navbar-derecha .iniciar-sesion {
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-derecha .iniciar-sesion:hover {
+    background-color: #bfbfbf;
+}
+
+.navbar-derecha .registrate {
+    font-style: normal;
+    cursor: pointer;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-derecha .registrate:hover {
+    background-color: #e6e6e6;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.imagen1 {
+    flex: 1;
+    width: 550px;
+    height: 360px;
+    margin-left: 620px;
+    margin-top: -125px;
+}
+
+.imagen1 img {
+    border-radius: 12px;
+    margin-top: -50px;
+}
+
+.bloque-formulario { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 45px;
+    margin-top: -270px;
+}
+
+.formulario {
+    max-width: 350px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px; 
+    margin: 5px;
+}
+
+.Rellenar {
+    display: flex;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    align-items: center;
+    position: relative;
+    background: rgb(237, 236, 236);
+    height: 25px;
+    width: 330px;
+}
+
+.Rellena {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;  
+}
+
+.Rellenar-l {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.Rellenar-l label {
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Rellenar-l input {
+    font-size: 16px;
+    background: rgb(237, 236, 236);
+    border: none;
+    padding: 13px;
+    border-radius: 8px;
+    width: 155px;
+}
+
+.Rellenar label {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.Rellenar input {
+    flex: 1;
+    font-size: 16px;
+    margin-left: 10px;
+    background: rgb(237, 236, 236);
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.contenido {
+    padding: 50px 50px;
+}
+
+.precios {
+    margin: 28px ;  
+    margin-top: -1px;
+}
+
+.ver-precios {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;  
+}
+
+.precios a {
+    color: #000000;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 5px;
+    display: block;
+    white-space: nowrap;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 55px;
+    font-weight: bold;
+    margin-left: 70px;
+    width: 400px;
+}
+
+h2 {
+    margin-left: 75px;
+    font-size: 30px;
+    margin-top: 75px;
+    font-weight: bold;
+}
+
+.tarjeta button:hover {
+    background-color: #bfbfbf;
+}
+
+.contenedor-tarjetas {
+    justify-content: flex-start;
+    font-size: 12px;
+    gap: 20px;
+    padding: 15px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    max-width: none;
+    background-color: rgb(241, 239, 239);
+    padding: 10px 15px;
+    position: relative;
+    border-radius: 12px;
+    width: 31%;
+    height: 180px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease;
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+}
+
+.tarjeta button {
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-style: normal;
+    color: #000000;
+    font-weight: bold;
+    white-space: nowrap;
+    background: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 4px;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta .info {
+    text-align: left;
+    justify-content: center;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 5px;
+    font-size: 11px;
+}
+
+.tarjeta .info h3 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.tarjeta img {
+    margin-left: 15px;
+    max-height: 130px;
+    object-fit: contain;
+    flex: 1;
+}
+
+.conduc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 70px;
+    font-family: sans-serif;
+    gap: 40px;
+}
+
+.inciarconduc {
+    flex: 1;
+    min-width: 300px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5px;
+}
+
+.inciarconduc h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 115px;
+}
+
+.inciarconduc p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.boton-y-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.boton-cuenta {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 24px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.crear-cuenta {
+    font-size: 16px;
+    color: #444;
+    cursor: pointer;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.tituloarribadelaimagen {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.conduc img {
+    flex-shrink: 0;
+    width: 550px;
+    height: 360px;
+    margin-left: 40px;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.Ventajas {
+    padding: 60px 70px;
+    font-family: sans-serif;
+}
+
+.planea {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.imagen-grande {
+    flex: 0 0 650px;
+}
+
+.cap {
+    width: 750px;
+    height: auto;
+    max-height: 560px;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
+    margin-left: 6px;
+}
+
+.planea > div:last-child {
+    flex: 1 1 870px;
+    padding: 10px 40px 30px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.planea h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 4px;
+    margin-left: -3px;
+}
+
+.planea ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.planea li {
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    line-height: 1.4;
+}
+
+.planea li:last-child {
+    border-bottom: none;
+}
+
+.planea a {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: underline;
+    color: #000;
+    margin-top: 10px;
+}
+
+.Conduce {
+    background-color: #fff;
+    padding: 70px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: -52px;
+    margin-left: -10px;
+}
+
+.Conduce-img {
+    max-width: 520px;
+    width: 570px; 
+    height: auto;
+    display: block;
+    
+}
+
+.Conducetexto {
+    min-width: 400px;
+    margin-right: 5px;
+}
+
+.Conducetexto h1 {
+    font-size: 31px;
+    margin-bottom: 25px;
+    color: #1c1c1e;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.Conducetexto p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+.onduce {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.botoncductor {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.link {
+    font-size: 15px;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Conduce img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.Conduce,
+.Comenzar {
+    background-color: #fff;
+    padding: 70px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: -52px;
+    margin-left: -10px;
+}
+
+.Conduce {
+    flex-direction: row;
+}
+
+.Comenzar {
+    flex-direction: row-reverse;
+}
+
+.Conduce-img,
+.Comenzar .Conduce-img {
+    max-width: 520px;
+    width: 570px;
+    height: auto;
+    display: block;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.Conducetexto {
+    min-width: 400px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.Cmenzatexto {
+    min-width: 400px;
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+.Conducetexto h1,
+.Cmenzatexto h1 {
+    font-size: 31px;
+    margin-bottom: 25px;
+    color: #1c1c1e;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.Conducetexto p,
+.Cmenzatexto p {
+    font-size: 17px;
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    margin-left: 0;
+}
+
+.onduce,
+.come {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.botoncductor {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-left: 0;
+}
+
+.botoncom {
+    background-color: #000;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.link {
+    font-size: 15px;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Conduce img,
+.Comenzar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 60px 80px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.footer-top a {
+  font-size: 14px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+.footer-grid h5 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-grid li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-location {
+  display: flex;
+  gap: 25px;
+  font-size: 14px;
+  color: #ccc;
+  flex-wrap: wrap;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-legal span {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #aaa;
+  font-size: 13px;
+}
