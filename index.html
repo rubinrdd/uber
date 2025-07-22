@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Uber</title>
   <link rel="stylesheet" href="css/index.css" />
+  <script src="js/fun.js"></script>
 </head>
 <body>
   <header class="encabezado">
@@ -49,11 +50,13 @@
         <div class="Rellena">
           <div class="Rellenar-l">
             <label for="Fecha">Fecha</label>
-            <input type="date" id="Fecha" name="Fecha" required />
+            <input type="date" id="Fecha" name="Fecha" required style="display:none;" />
+            <span id="fecha-texto">Hoy</span>
           </div>
           <div class="Rellenar-l">
             <label for="Hora">Hora</label>
-            <input type="time" id="Hora" name="Hora" required />
+            <input type="time" id="Hora" name="Hora" required style="display:none;" />
+            <span id="hora-texto">Ahora</span>
           </div>
         </div>
       </form>
@@ -157,9 +160,9 @@
       </div>
       <div class="Conducetexto">
         <h1>
-            La misma plataforma de <br>
-            genera las ganancias que <br>
-            necesites
+          Conduce cuando quieras y <br>
+          genera las ganancias que <br>
+          necesites
         </h1>
         <p>
           Genera ganancias en tu propio tiempo con entregas,
@@ -180,22 +183,46 @@
       </div>
       <div class="Cmenzatexto">
         <h1>
-          Conduce cuando quieras y <br>
-          genera las ganancias que <br>
-          necesites
+            La misma plataforma de <br>
+            genera las ganancias que <br>
+            necesites
         </h1>
         <p>
-            Uber para Empresas es una plataforma con la que las <br />
+          Uber para Empresas es una plataforma con la que las <br />
             empresas de todos los tamaños pueden gestionar viajes y <br />
             comidas globales, así como entregas locales.
         </p>
         <div class="come">
           <button class="botoncom">Comenzar</button>
-          <a class="link" href="#">¿Ya tienes una cuenta? Iniciar sesion</a>
+          <a class="link" href="#">Conoce nuestras soluciones.</a>
         </div>
       </div>
     </div>
-    <div><img src="img/qr.png" alt="acomodar"></div>
+
+    <div class="qr-cont">
+    <h2>Es más fácil con las apps</h2>
+    
+    <div class="qr-lista">
+        <div class="qr">
+          <img src="img/qr 1.webp" alt="qr1">
+          <div class="qrtext">
+            <h3>Descarga la app de Uber</h3>
+            <p>Escanea para descargar</p>
+          </div>
+          <span class="flecha">→</span>
+        </div>
+
+        <div class="qr">
+          <img src="img/qr 2.webp" alt="qr2">
+          <div class="qrtext">
+            <h3>Descarga la app para socios</h3>
+            <p>Escanea para descargar</p>
+          </div>
+          <span class="flecha">→</span>
+        </div>
+      </div>
+    </div>
+
 
 <footer class="footer">
   <div class="footer-top">
